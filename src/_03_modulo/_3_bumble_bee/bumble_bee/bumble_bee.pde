@@ -21,7 +21,22 @@ Use modulo to make the colors alternate between yellow and black
 /*
 Now put his head on using drawBeeFace(x,y)
 */
-
+ellipse(0, 0, 50, 50);
+fill(#030000);
+ellipse(30, 30, 50, 50);
+fill(255, 251, 28);
+ellipse(60, 60, 50, 50);
+fill(#030000);
+ellipse(90, 90, 50, 50);
+fill(255, 251, 28);
+ellipse(120, 120, 50, 50);
+fill(#030000);
+ellipse(150, 150, 50, 50);
+fill(255, 251, 28);
+ellipse(180, 180, 50, 50);
+fill(#030000);
+ellipse(210, 210, 50, 50);
+drawBeeFace(240, 240);
 }
 
 /**************   Use these methods but  DON'T CHANGE THE CODE BELOW  **************/

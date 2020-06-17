@@ -15,9 +15,10 @@ public class ShinyObjects {
 		// 1. Call the method below to play the sound
 		playMisterZee();
 		// 2. Ask the user how many shiny objects they want
-		JOptionPane.showInputDialog("Please enter how many shiny objects you want");
+		String input = JOptionPane.showInputDialog("Please enter how many shiny objects you want");
+		int objects = Integer.parseInt(input);
 		// 3. Play the sound that many times
-
+		
 
 	}
 
